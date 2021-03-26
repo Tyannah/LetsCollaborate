@@ -23,11 +23,6 @@ void setup()
   InitialisingDisplay();
 }
 
- 
-void loop()
-{
-
-}
 
 void loop()
 {
