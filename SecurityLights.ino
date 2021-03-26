@@ -23,8 +23,22 @@ void setup()
   InitialisingDisplay();
 }
 
+ 
 void loop()
 {
+
+}
+
+void loop()
+{
+//============================================================
+  lcd.setCursor(5,0);
+  lcd.print ("System");
+  lcd.setCursor(3,1);
+  lcd.print ("Monitoring");
+   delay(100);
+//==========End of Display==================================
+
   inputVal = analogRead(LDR); //read the value of the resistor
   if(inputVal>990){ //if its bright outside 
 //     digitalWrite(ledPin,LOW);//keep light off
