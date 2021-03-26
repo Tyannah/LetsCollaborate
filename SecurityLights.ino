@@ -17,6 +17,10 @@ void setup()
   Serial.begin(9600);
   pinMode(ledPin,OUTPUT);//set LED pin as output
   pinMode(inputVal,INPUT);//set LDR pin as input
+ 
+ //display
+  lcd.begin(16,2);               // initialize the lcd 
+  InitialisingDisplay();
 }
 
 void loop()
