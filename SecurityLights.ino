@@ -38,3 +38,42 @@ void loop()
          delay(2000);
     }
 }
+//lighting function
+void InitialisingDisplay()
+{
+//============================Display=========================
+lcd.setCursor(0,0);
+lcd.print (" lighting System");
+delay(2000);
+lcd.clear();
+
+lcd.setCursor(0,0);
+lcd.print (" Initialising");
+delay(1000);
+//
+lcd.setCursor(0,1);
+lcd.print (" System.");
+delay(2000);
+lcd.setCursor(8,1);
+lcd.print (".");
+delay(1000);
+lcd.setCursor(9,1);
+lcd.print (".");
+delay(1000);
+lcd.setCursor(10,1);
+lcd.print (".");
+delay(1000);
+lcd.setCursor(11,1);
+lcd.print (".");
+delay(1000);
+lcd.setCursor(12,1);
+lcd.print (".");
+delay(1000);
+lcd.setCursor(13,1);
+lcd.print (".");
+delay(3000);
+lcd.clear();
+//============================================================
+
+}
+ 
